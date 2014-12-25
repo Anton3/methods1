@@ -33,9 +33,9 @@ const size_t BUF_SIZE = 80;
 int main(void) {
     cauchy_problem problems[] = {
         // f        a  b   y0 n
-        {  f_test1, 0, 10, 0,  10   },
-        {  f_test1, 0, 10, 0,  100  },
-        {  f_test1, 0, 10, 0,  1000 },
+        {  f_test1, 0, 5,  0,  10   },
+        {  f_test1, 0, 5,  0,  100  },
+        {  f_test1, 0, 5,  0,  1000 },
         {  f_test2, 0, 10, 10, 100  },
         {  f_test3, 0, 10, 10, 100  }
     };

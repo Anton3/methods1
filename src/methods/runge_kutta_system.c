@@ -11,7 +11,7 @@ void print_cauchy_solution_system(cauchy_solution_system s, const char *fname) {
         fprintf(output, "%-11.8Lf %-11.8Lf\n", vidx(s.x, i), vidx(s.y, i));
     }
 
-    fprintf(output, "\n");
+    fprintf(output, "\n\n");
 
     for (size_t i = 0; i < n; ++i) {
         fprintf(output, "%-11.8Lf %-11.8Lf\n", vidx(s.x, i), vidx(s.z, i));
